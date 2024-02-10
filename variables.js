@@ -13,11 +13,41 @@ let c = a + b;
 console.log(c)
 
 
+let w = "John Doe";
+ w = 0;
+ console.log(w)
+
+
+let k = 10;
+// Here k is 10
+
+{
+let k = 2;
+// Here k is 2
+}
+
+// Here k is 10
+console.log(k)
+
+
 //Using const
 const d = 5;
 const e = 6;
 const f = d + e;
 console.log(f)
+
+
+const l = 10;
+// Here l is 10
+
+{
+const l = 2;
+// Here l is 2
+}
+
+// Here l is 10
+console.log(l)
+
 
 //Mixed
 const price1 = 5;
