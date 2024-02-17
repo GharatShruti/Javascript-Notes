@@ -115,3 +115,21 @@ console.log(high)
 const temp1 = [27, 28, 30, 40, 42, 35, 30];
 let pos = temp1.findLastIndex(x => x > 40);
 console.log(pos)
+
+var car = {company:"bmw",
+            model:"S",
+          }
+console.log(car)
+// car.year = function(a,b){
+//   c = a+b
+//   console.log(c)
+// };
+
+
+car.year = function(a,b){
+  const year = a+b
+  console.log(year)
+};
+car.year(1,6);
+
+
